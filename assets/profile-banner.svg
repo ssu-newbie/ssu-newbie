@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="352" viewBox="0 0 1280 352" role="img" aria-labelledby="title desc">
+  <title id="title">Junyoung Kim — Game Development &amp; Systems</title>
+  <desc id="desc">Dark navy portfolio banner with mint accents and a geometric game controller. Build. Observe. Improve.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101b2c"/>
+      <stop offset="1" stop-color="#172b3b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b3d8dd" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="352" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="352" rx="20" fill="url(#grid)"/>
+  <path d="M0 332H1280" stroke="#76e4c4" stroke-width="2" stroke-opacity="0.3"/>
+  <rect x="54" y="52" width="7" height="25" rx="3.5" fill="#76e4c4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="79" y="73" font-size="22" letter-spacing="3.2" fill="#a7b8c5">GAME DEVELOPMENT &amp; SYSTEMS</text>
+    <text x="54" y="166" font-size="70" font-weight="700" letter-spacing="-2" fill="#f4f0e8">JUNYOUNG KIM</text>
+    <text x="58" y="226" font-size="30" fill="#76e4c4">Build. Observe. Improve.</text>
+    <text x="58" y="285" font-size="22" letter-spacing="1.8" fill="#a7b8c5">UNITY / C# / SYSTEMS THINKING</text>
+  </g>
+  <g transform="translate(914 63)">
+    <rect x="0" y="0" width="294" height="224" rx="24" fill="#0b1523" fill-opacity="0.45" stroke="#365061"/>
+    <path d="M52 64h30m-30 0v30M242 162h-30m30 0v-30" stroke="#76e4c4" stroke-width="3" fill="none"/>
+    <path d="M105 82h84c15 0 25 10 29 24l11 45c3 12-10 19-19 11l-27-25h-72l-27 25c-9 8-22 1-19-11l11-45c4-14 14-24 29-24Z" fill="#192e3e" stroke="#a4c7d0" stroke-width="3"/>
+    <path d="M101 103v25m-12-12h25" stroke="#76e4c4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="187" cy="105" r="6" fill="#76e4c4"/>
+    <circle cx="203" cy="121" r="6" fill="#f4f0e8"/>
+    <path d="M136 118h18" stroke="#688995" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="26" cy="25" r="4" fill="#76e4c4"/>
+    <path d="M41 25h64" stroke="#365061" stroke-width="3" stroke-linecap="round"/>
+    <text x="147" y="199" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" text-anchor="middle" fill="#8ea7b5">SSU-NEWBIE</text>
+  </g>
+</svg>
