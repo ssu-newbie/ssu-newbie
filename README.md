@@ -49,11 +49,11 @@ Claude의 IL 분석과 실행 결과를 함께 검토해 문제 원인과 수정
 - **기록 관리:** 점수 저장 및 최고 점수 반환
 - **구현 포인트:** Pydantic 요청 모델, JSON 파일 저장, 프로세스 내부 잠금과 임시 파일 교체
 
-현재 API 호환성을 유지하는 구조 분리와 회귀 테스트를 [초안 PR](https://github.com/ssu-newbie/pancake-server/pull/1)로 정리하고 있습니다. 기존 코드 작성은 Claude와, 이번 리팩토링·테스트·문서화는 GPT/Codex와 협업했습니다.
+API 호환성을 유지하는 구조 분리와 회귀 테스트를 [PR #1](https://github.com/ssu-newbie/pancake-server/pull/1)로 반영했습니다. 기존 코드 작성은 Claude와, 이번 리팩토링·테스트·문서화는 GPT/Codex와 협업했습니다.
 
 `Python` `FastAPI` `Pydantic` `Uvicorn`
 
-[소스 코드 →](https://github.com/ssu-newbie/pancake-server) · [API 구현 →](https://github.com/ssu-newbie/pancake-server/blob/main/pancake_server.py)
+[소스 코드 →](https://github.com/ssu-newbie/pancake-server) · [API 구현 →](https://github.com/ssu-newbie/pancake-server/blob/main/pancake/api.py)
 
 ## Toolbox
 
